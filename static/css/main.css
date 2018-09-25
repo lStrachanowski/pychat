@@ -1,0 +1,72 @@
+.index-header-logo-position{
+    display: inline-block;
+    width: 15%;
+    height: 15%;
+    margin: 2%;
+}
+.index-header-menu-position{
+    width: 80%;
+    float: right;
+}
+
+.index-header-menu-align{
+    float: right;
+    cursor: pointer;
+    height: 15%;
+    padding: 1.75%;
+    background-color:#3A7DB8;
+    border-radius: 10px 0px 10px 10px;
+    transition: 0.75s;
+}
+
+.index-header-menu-align:hover .menu-style-wrapper{
+    display: none;
+}
+
+.index-header-menu-align:hover .cross{
+    display: block;
+}
+
+.index-header-menu-align:hover{
+    background-color:rgb(17, 80, 135);
+
+}
+
+.menu-style{
+    width: 60px;
+    height: 8px;
+    background-color: white;
+    margin: 11px 0;
+    border-radius: 5px;
+}
+
+.cross {
+    width: 64px;
+    height: 64px;
+    position: relative;
+    transform:rotate(45deg);
+    display: none;
+    -ms-transform:rotate(45deg); /* IE 9 */
+    -webkit-transform:rotate(45deg); /* Safari and Chrome */
+ }
+ 
+ .cross:before, .cross:after {
+   content: "";
+   position: absolute;
+   z-index: -1;
+   background: rgb(255, 255, 255);
+ }
+ 
+ .cross:before {
+   left: 50%;
+   width: 30%;
+   margin-left: -15%;
+   height: 100%;
+ }
+ 
+.cross:after {
+   top: 50%;
+   height: 30%;
+   margin-top: -15%;
+   width: 100%;
+ }
