@@ -10,6 +10,7 @@
 }
 
 .index-header-menu-align{
+    position: relative;
     float: right;
     cursor: pointer;
     height: 15%;
@@ -17,10 +18,23 @@
     background-color:#3A7DB8;
     border-radius: 10px 0px 10px 10px;
     transition: 0.75s;
+    z-index: 10;
 }
 
 .menu-style-wrapper{
     display: block;
+}
+
+.menu-active-background{
+    background-color: #3A7DB8;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top:0;
+    left: 0;
+    opacity: 0.9;
+    z-index: 1;
+    display: none;
 }
 
 /* .index-header-menu-align:active .menu-style-wrapper{
