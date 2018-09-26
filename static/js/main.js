@@ -1,7 +1,5 @@
 document.addEventListener('DOMContentLoaded', ()=>{
-    document.querySelector('.menu-style-wrapper').onclick = hide_menu_icon;
-    document.querySelector('.cross').onclick = hide_menu_icon;
-    document.querySelector('.menu-active-background').onclick = hide_menu;
+    document.querySelector('.index-header-menu-align').onclick = hide_menu_icon;
 })
 
 var hide_menu_icon =() =>{
@@ -14,15 +12,4 @@ var hide_menu_icon =() =>{
         document.querySelector(".menu-style-wrapper").style.display = "block";
         document.querySelector(".menu-active-background").style.display = "none";
     }
-
-
-
-        
-}
-
-var hide_menu =()=>{
-    if(document.querySelector(".menu-style-wrapper").style.display==""){
-        document.querySelector(".menu-active-background").style.display = "none";
-    }
-    
 }
