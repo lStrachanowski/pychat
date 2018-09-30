@@ -2,10 +2,10 @@
     display: inline-block;
     width: 15%;
     height: 15%;
-    margin: 2%;
+    margin: 1%;
 }
 .index-header-menu-position{
-    width: 80%;
+    width: 50%;
     float: right;
 }
 
@@ -103,3 +103,82 @@ a:hover{
    margin-top: -15%;
    width: 100%;
  }
+ @media only screen and (max-width:768px){
+    .menu-items{
+        font-size: 2em;
+        text-align: center;
+        margin: 8% 0% 8% 0%;
+    }
+ }
+
+ @media only screen and (max-width: 768px) and (orientation: portrait) {
+    .index-header-logo-position{
+        display: inline-block;
+        width: 35%;
+        height: 35%;
+        margin: 2%;
+    }
+    .index-header-menu-position{
+        width: 50%;
+        float: right;
+    }
+    .index-header-menu-align{
+        height: 10%;
+    }
+    .menu-style{
+        width: 45px;
+        height: 7px;
+        background-color: white;
+        margin: 8px 4px;
+        border-radius: 5px;
+    }
+
+ } 
+
+ @media only screen and (max-width: 768px) and (orientation: landscape) {
+    .index-header-logo-position{
+        display: inline-block;
+        width:25%;
+        height: 25%;
+        margin: 1%;
+    }
+    .index-header-menu-position{
+        width: 50%;
+        float: right;
+    }
+    .menu-style{
+        width: 45px;
+        height: 8px;
+        background-color: white;
+        margin: 8px 4px;
+        border-radius: 5px;
+    }
+ }
+
+ @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) { 
+    .index-header-logo-position{
+        display: inline-block;
+        width:22%;
+        height: 25%;
+        margin: 1%;
+    }
+    .index-header-menu-position{
+        width: 50%;
+        float: right;
+    }
+    .menu-items{
+        font-size: 3em;
+    }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { 
+    .menu-items{
+        font-size: 3em;
+    }
+    .index-header-logo-position{
+        display: inline-block;
+        width:25%;
+        height: 25%;
+        margin: 1%;
+    }
+}
