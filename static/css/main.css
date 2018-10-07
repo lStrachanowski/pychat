@@ -216,6 +216,28 @@ a:hover{
     display: none;
 }
 
+.dot-menu{
+    width: 30px;
+    height: 30px;
+    margin: 25px 0;
+    background: #3A7DB8;
+    border-radius: 50%;
+    display: block;
+}
+
+.dot-menu-position{
+     display: none;
+     float: right;
+     position: relative;
+     top: -40%;
+     transform: translateY(-50%);
+     margin-left: 20px;
+
+}
+
+.red-dot{
+    background: #C1292F;
+}
 
 /* mobile phone mode */
 @media only screen and (max-width: 599px){
@@ -386,6 +408,10 @@ a:hover{
 
 /* desktop mode  */
 @media only screen and (min-width: 1200px){
+    .dot-menu-position{
+        display: block;
+        cursor: pointer;
+   }
     .phone-position{
         display: block;
     }
