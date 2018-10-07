@@ -204,6 +204,15 @@ a:hover{
 .center-button{
     text-align: center;
 }
+
+.mobile-input-style{
+    display: block;
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #d1d1d1;
+}
+
 /* mobile phone mode */
 @media only screen and (max-width: 599px){
     .phone-position{
@@ -230,12 +239,7 @@ a:hover{
         margin: 8px 4px;
         border-radius: 5px;
     }
-    .mobile-input-style{
-        display: block;
-        width: 100%;
-        padding: 6px 10px;
-        margin: 4px 0;
-    }
+
 }
 
 /* tablet portrait mode */
@@ -284,12 +288,6 @@ a:hover{
     /*color corrected to white because of red dot in background image*/
     .index-text-red-mobile{
         color:rgb(255, 255, 255);
-    }
-    .mobile-input-style{
-        display: block;
-        width: 100%;
-        padding: 6px 10px;
-        margin: 4px 0;
     }
 
 }
