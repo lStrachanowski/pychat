@@ -285,6 +285,12 @@ a:hover{
     .index-text-red-mobile{
         color:rgb(255, 255, 255);
     }
+    .mobile-input-style{
+        display: block;
+        width: 100%;
+        padding: 6px 10px;
+        margin: 4px 0;
+    }
 
 }
 
@@ -311,7 +317,9 @@ a:hover{
     .index-center-content{
         width: 100vw;
         height: 50vh;
+        top: 50%;
     }
+
     
 }
 
@@ -343,6 +351,9 @@ a:hover{
         background-color: white;
         margin: 11px 0;
         border-radius: 5px;
+    }
+    .index-center-content{
+        top: 50%;
     }
 }
 
