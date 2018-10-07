@@ -137,14 +137,45 @@ a:hover{
      color: #3D4F5B;
  }
 
+ .index-text-red{
+    color:#C1292F;
+}
+.index-text-red-mobile{
+    color:#C1292F;
+}
+
+.index-text-mobile{
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.index-text-mobile-small{
+    font-size: 1.0em;
+    margin: 5% 0;
+}
+
+.index-text-mobile-switch{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
  .index-button-style{
     background: #C1292F;
     color: white;
     text-decoration: none;
     border: none;
     padding: 1% 5.5% 1% 5.5%;
-    margin: 2% 2.6% 1% 0.6%;
+    margin: 2% 2.6% 2% 2.6%;
     font-size: 2.2vw;
+    font-weight: 600;
+    border-radius: 9px;
+    transition: 0.3s;
+ }
+
+ .index-button-style-mobile{
+    padding: 4% 11.5% 4% 11.5%;
+    margin: 2% 2.6% 2% 2.6%;
+    font-size: 1.2em;
     font-weight: 600;
     border-radius: 9px;
     transition: 0.3s;
@@ -161,6 +192,18 @@ a:hover{
     transform: translate(-50%, -50%);
 }
 
+.mobile-login{
+    float: left;
+    margin: 3%;
+}
+
+.mobile-register{
+    float:right;
+    margin: 3%;
+}
+.center-button{
+    text-align: center;
+}
 /* mobile phone mode */
 @media only screen and (max-width: 599px){
     .phone-position{
@@ -186,6 +229,12 @@ a:hover{
         background-color: white;
         margin: 8px 4px;
         border-radius: 5px;
+    }
+    .mobile-input-style{
+        display: block;
+        width: 100%;
+        padding: 6px 10px;
+        margin: 4px 0;
     }
 }
 
@@ -215,7 +264,28 @@ a:hover{
         height: 25%;
         margin: 1%;
     }
-    
+    .back-image{
+        width: 80%;
+    }
+    .block-left-mobile{
+        float: left;
+        width: 45%;
+    }
+    .block-right-mobile{
+        float: right;
+        width: 45%;
+    }
+    .index-center-content {
+        width: 85%;
+    }
+    .index-center-content{
+        top: 60%;
+    }
+    /*color corrected to white because of red dot in background image*/
+    .index-text-red-mobile{
+        color:rgb(255, 255, 255);
+    }
+
 }
 
 /* tablet landscape mode  */
