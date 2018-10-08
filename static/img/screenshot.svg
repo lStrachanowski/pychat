@@ -1,0 +1,289 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 989.124 555.547">
+  <defs>
+    <style>
+      .cls-1, .cls-11, .cls-15, .cls-17, .cls-19 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        stroke: rgba(112,112,112,0.19);
+      }
+
+      .cls-2 {
+        fill: #f5f5f5;
+      }
+
+      .cls-20, .cls-21, .cls-3, .cls-6, .cls-8 {
+        fill: #3a7db8;
+      }
+
+      .cls-4 {
+        fill: #fd1718;
+      }
+
+      .cls-5 {
+        fill: #333;
+        font-size: 32px;
+        font-family: Bahnschrift;
+      }
+
+      .cls-15, .cls-6, .cls-7 {
+        font-size: 16px;
+      }
+
+      .cls-21, .cls-6 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .cls-11, .cls-13, .cls-15, .cls-19, .cls-20, .cls-22, .cls-7 {
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-8 {
+        fill-rule: evenodd;
+      }
+
+      .cls-9 {
+        fill: none;
+      }
+
+      .cls-10, .cls-13 {
+        fill: #0b3961;
+      }
+
+      .cls-11, .cls-13, .cls-22 {
+        font-size: 11px;
+      }
+
+      .cls-12 {
+        fill: #29bd5f;
+      }
+
+      .cls-14 {
+        fill: #bd2929;
+      }
+
+      .cls-16, .cls-22 {
+        fill: #2699fb;
+      }
+
+      .cls-18 {
+        fill: #9ab1ff;
+      }
+
+      .cls-19, .cls-20 {
+        font-size: 19px;
+      }
+
+      .cls-21 {
+        font-size: 4px;
+      }
+
+      .cls-23 {
+        fill: #bce0fd;
+      }
+
+      .cls-24 {
+        stroke: none;
+      }
+
+      .cls-25 {
+        filter: url(#Ellipse_276);
+      }
+
+      .cls-26 {
+        filter: url(#Rectangle_500);
+      }
+
+      .cls-27 {
+        filter: url(#Rectangle_499);
+      }
+
+      .cls-28 {
+        filter: url(#Ellipse_274);
+      }
+
+      .cls-29 {
+        filter: url(#Ellipse_272);
+      }
+
+      .cls-30 {
+        filter: url(#Rectangle_498);
+      }
+
+      .cls-31 {
+        filter: url(#Rectangle_497);
+      }
+
+      .cls-32 {
+        filter: url(#Ellipse_269);
+      }
+
+      .cls-33 {
+        filter: url(#Rectangle_495);
+      }
+
+      .cls-34 {
+        filter: url(#Rectangle_502);
+      }
+    </style>
+    <filter id="Rectangle_502" x="0" y="0" width="989.124" height="555.547" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_495" x="1.5" y="80.72" width="263.478" height="82.016" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_269" x="268.652" y="165.402" width="57.569" height="57.569" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_497" x="323.263" y="174.911" width="295.632" height="68.715" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_498" x="578.943" y="243.781" width="308.824" height="57.847" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_272" x="881.591" y="232.946" width="57.569" height="57.569" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_274" x="265.124" y="307.548" width="57.569" height="57.569" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-7"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_499" x="319.734" y="317.057" width="295.632" height="68.715" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-8"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_500" x="575.415" y="385.926" width="308.824" height="57.847" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-9"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-9"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_276" x="878.062" y="375.092" width="57.569" height="57.569" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-10"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-10"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_37" data-name="Group 37" transform="translate(-102.5 -302.5)">
+    <g class="cls-34" transform="matrix(1, 0, 0, 1, 102.5, 302.5)">
+      <g id="Rectangle_502-2" data-name="Rectangle 502" class="cls-1" transform="translate(10.5 5.5)">
+        <rect class="cls-24" width="968.124" height="534.547"/>
+        <rect class="cls-9" x="0.5" y="0.5" width="967.124" height="533.547"/>
+      </g>
+    </g>
+    <g id="Group_36" data-name="Group 36" transform="translate(113 318.097)">
+      <rect id="Rectangle_493" data-name="Rectangle 493" class="cls-2" width="244.974" height="55.951" transform="translate(0.504 251.073)"/>
+      <g id="Group_35" data-name="Group 35" transform="translate(38.157 0)">
+        <g id="Group_7" data-name="Group 7" transform="translate(0)">
+          <path id="Path_30" data-name="Path 30" class="cls-3" d="M71.1,25,63.365,51.743,55.047,25H48.4L60.411,61.966l-1.594,5.481a7.077,7.077,0,0,1-1.866,2.876,4.368,4.368,0,0,1-2.876.816H52.754v7.074h1.322A10.013,10.013,0,0,0,60.1,76.659a10.624,10.624,0,0,0,3.5-5.325L77.709,25Z" transform="translate(-45.601 -25)"/>
+          <path id="Path_31" data-name="Path 31" class="cls-4" d="M58.07,40.5A16.823,16.823,0,0,0,41.239,56.593H41.2V87.728h7.541V71.4A16.862,16.862,0,1,0,58.07,40.5Zm.078,27.987A11.273,11.273,0,1,1,69.42,57.214,11.281,11.281,0,0,1,58.148,68.487Z" transform="translate(-41.2 -34.475)"/>
+        </g>
+        <text id="pychat" class="cls-5" transform="translate(41.903 35.876)"><tspan x="0" y="0">pychat</tspan></text>
+      </g>
+      <text id="Strachula" class="cls-6" transform="translate(729.881 30.684)"><tspan x="0" y="0">Strachula</tspan></text>
+      <text id="log_out" data-name="log out" class="cls-7" transform="translate(873.034 30.684)"><tspan x="0" y="0">log out</tspan></text>
+      <path id="Path_211" data-name="Path 211" class="cls-8" d="M7.852,10.469A2.094,2.094,0,1,0,5.758,8.375,2.1,2.1,0,0,0,7.852,10.469ZM3.56,3.769A5.9,5.9,0,0,1,6.072,2.408L6.91,0H9l.838,2.408a7.311,7.311,0,0,1,2.513,1.361l2.513-.523L15.913,5.13,14.238,7.014a5.968,5.968,0,0,1,.1,1.361c0,.419-.1.942-.1,1.361l1.675,1.884-1.047,1.884-2.513-.523a5.9,5.9,0,0,1-2.513,1.361L9,16.751H6.91l-.838-2.408A7.311,7.311,0,0,1,3.56,12.982l-2.513.523L0,11.621,1.675,9.736a5.969,5.969,0,0,1-.1-1.361c0-.419.1-.942.1-1.361L0,5.13,1.047,3.245Z" transform="translate(824.333 15.172) rotate(31)"/>
+      <path id="Path_212" data-name="Path 212" class="cls-9" d="M0,0H245.478V453.655H0Z" transform="translate(0 71.123)"/>
+      <rect id="Rectangle_494" data-name="Rectangle 494" class="cls-3" width="722.397" height="64.016" transform="translate(245.478 71.123)"/>
+      <g class="cls-33" transform="matrix(1, 0, 0, 1, -10.5, -15.6)">
+        <rect id="Rectangle_495-2" data-name="Rectangle 495" class="cls-10" width="245.478" height="64.016" transform="translate(10.5 86.72)"/>
+      </g>
+      <text id="Lukasz_Strachanowski" data-name="Lukasz Strachanowski" class="cls-11" transform="translate(72.585 106.326)"><tspan x="0" y="0">Lukasz Strachanowski</tspan></text>
+      <circle id="Ellipse_256" data-name="Ellipse 256" class="cls-12" cx="7.057" cy="7.057" r="7.057" transform="translate(214.226 96.326)"/>
+      <text id="Ola_Kowalska" data-name="Ola Kowalska" class="cls-13" transform="translate(72.585 226.293)"><tspan x="0" y="0">Ola Kowalska</tspan></text>
+      <circle id="Ellipse_257" data-name="Ellipse 257" class="cls-12" cx="7.057" cy="7.057" r="7.057" transform="translate(214.226 216.293)"/>
+      <text id="Sandra_Nowak" data-name="Sandra Nowak" class="cls-13" transform="translate(72.585 281.739)"><tspan x="0" y="0">Sandra Nowak</tspan></text>
+      <circle id="Ellipse_258" data-name="Ellipse 258" class="cls-14" cx="7.057" cy="7.057" r="7.057" transform="translate(214.226 271.739)"/>
+      <text id="Tomasz_Kot" data-name="Tomasz Kot" class="cls-13" transform="translate(72.585 170.342)"><tspan x="0" y="0">Tomasz Kot</tspan></text>
+      <circle id="Ellipse_259" data-name="Ellipse 259" class="cls-14" cx="7.057" cy="7.057" r="7.057" transform="translate(214.226 160.342)"/>
+      <line id="Line_4" data-name="Line 4" class="cls-9" x2="244.974" transform="translate(0.252 195.374)"/>
+      <line id="Line_5" data-name="Line 5" class="cls-9" x2="244.974" transform="translate(0.252 250.821)"/>
+      <line id="Line_6" data-name="Line 6" class="cls-9" x2="244.974" transform="translate(0.252 306.772)"/>
+      <text id="Conversation_with_Lukasz_Strachanowski" data-name="Conversation with Lukasz Strachanowski" class="cls-15" transform="translate(446.598 107.302)"><tspan x="0" y="0">Conversation with Lukasz Strachanowski</tspan></text>
+      <circle id="Ellipse_260" data-name="Ellipse 260" class="cls-16" cx="17.422" cy="17.422" r="17.422" transform="translate(15.626 261.154)"/>
+      <path id="Union_55" data-name="Union 55" class="cls-17" d="M0,13.938V12.2c0-1.917,3.136-3.485,6.969-3.485s6.969,1.568,6.969,3.485v1.742ZM3.484,3.485A3.484,3.484,0,1,1,6.969,6.969,3.485,3.485,0,0,1,3.484,3.485Z" transform="translate(26.079 271.608)"/>
+      <circle id="Ellipse_263" data-name="Ellipse 263" class="cls-16" cx="17.422" cy="17.422" r="17.422" transform="translate(15.626 205.707)"/>
+      <path id="Union_56" data-name="Union 56" class="cls-17" d="M0,13.938V12.2c0-1.917,3.136-3.485,6.969-3.485s6.969,1.568,6.969,3.485v1.742ZM3.484,3.485A3.484,3.484,0,1,1,6.969,6.969,3.485,3.485,0,0,1,3.484,3.485Z" transform="translate(26.079 216.161)"/>
+      <circle id="Ellipse_265" data-name="Ellipse 265" class="cls-16" cx="17.422" cy="17.422" r="17.422" transform="translate(15.626 150.261)"/>
+      <path id="Union_57" data-name="Union 57" class="cls-17" d="M0,13.938V12.2c0-1.917,3.136-3.485,6.969-3.485s6.969,1.568,6.969,3.485v1.742ZM3.484,3.485A3.484,3.484,0,1,1,6.969,6.969,3.485,3.485,0,0,1,3.484,3.485Z" transform="translate(26.079 160.714)"/>
+      <circle id="Ellipse_267" data-name="Ellipse 267" class="cls-16" cx="17.422" cy="17.422" r="17.422" transform="translate(15.626 85.741)"/>
+      <path id="Union_58" data-name="Union 58" class="cls-17" d="M0,13.938V12.2c0-1.917,3.136-3.485,6.969-3.485s6.969,1.568,6.969,3.485v1.742ZM3.484,3.485A3.484,3.484,0,1,1,6.969,6.969,3.485,3.485,0,0,1,3.484,3.485Z" transform="translate(26.079 96.194)"/>
+      <g class="cls-32" transform="matrix(1, 0, 0, 1, -10.5, -15.6)">
+        <circle id="Ellipse_269-2" data-name="Ellipse 269" class="cls-16" cx="19.784" cy="19.784" r="19.784" transform="translate(277.65 171.4)"/>
+      </g>
+      <path id="Union_59" data-name="Union 59" class="cls-17" d="M0,15.828V13.849c0-2.177,3.561-3.957,7.914-3.957s7.914,1.781,7.914,3.957v1.978ZM3.956,3.957A3.957,3.957,0,1,1,7.914,7.914,3.957,3.957,0,0,1,3.956,3.957Z" transform="translate(279.023 167.676)"/>
+      <g class="cls-31" transform="matrix(1, 0, 0, 1, -10.5, -15.6)">
+        <rect id="Rectangle_497-2" data-name="Rectangle 497" class="cls-18" width="277.632" height="50.715" rx="6" transform="translate(332.26 180.91)"/>
+      </g>
+      <text id="Lorem_ipsum_dolor_sit_amet_consectetur_adipisicing_elit_sed_do_eiusmod_tempor." data-name="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor." class="cls-19" transform="translate(333.787 176.182)"><tspan x="0" y="17">Lorem ipsum dolor sit amet, </tspan></text>
+      <g class="cls-30" transform="matrix(1, 0, 0, 1, -10.5, -15.6)">
+        <rect id="Rectangle_498-2" data-name="Rectangle 498" class="cls-2" width="290.824" height="39.847" rx="6" transform="translate(587.94 249.78)"/>
+      </g>
+      <text id="Excepteur_sint_occaecat_cupidatat_non_proident." data-name="Excepteur sint occaecat cupidatat non proident." class="cls-20" transform="translate(603.199 245.051)"><tspan x="0" y="17">Excepteur sint occaecat </tspan></text>
+      <text id="Monday_10:40_am" data-name="Monday, 10:40 am" class="cls-21" transform="translate(338.763 159.805)"><tspan x="-17.08" y="0">Monday, 10:40 am</tspan></text>
+      <text id="Monday_10:40_am-2" data-name="Monday, 10:40 am" class="cls-21" transform="translate(830.93 227.317)"><tspan x="-17.08" y="0">Monday, 10:40 am</tspan></text>
+      <g class="cls-29" transform="matrix(1, 0, 0, 1, -10.5, -15.6)">
+        <circle id="Ellipse_272-2" data-name="Ellipse 272" class="cls-16" cx="19.784" cy="19.784" r="19.784" transform="translate(890.59 238.95)"/>
+      </g>
+      <path id="Union_61" data-name="Union 61" class="cls-17" d="M0,15.828V13.849c0-2.177,3.561-3.957,7.914-3.957s7.914,1.781,7.914,3.957v1.978ZM3.956,3.957A3.957,3.957,0,1,1,7.914,7.914,3.957,3.957,0,0,1,3.956,3.957Z" transform="translate(891.961 235.22)"/>
+      <g class="cls-28" transform="matrix(1, 0, 0, 1, -10.5, -15.6)">
+        <circle id="Ellipse_274-2" data-name="Ellipse 274" class="cls-16" cx="19.784" cy="19.784" r="19.784" transform="translate(274.12 313.55)"/>
+      </g>
+      <path id="Union_62" data-name="Union 62" class="cls-17" d="M0,15.828V13.849c0-2.177,3.561-3.957,7.914-3.957s7.914,1.781,7.914,3.957v1.978ZM3.956,3.957A3.957,3.957,0,1,1,7.914,7.914,3.957,3.957,0,0,1,3.956,3.957Z" transform="translate(275.495 309.821)"/>
+      <g class="cls-27" transform="matrix(1, 0, 0, 1, -10.5, -15.6)">
+        <rect id="Rectangle_499-2" data-name="Rectangle 499" class="cls-18" width="277.632" height="50.715" rx="6" transform="translate(328.73 323.06)"/>
+      </g>
+      <text id="Lorem_ipsum_dolor_sit_amet_consectetur_adipisicing_elit_sed_do_eiusmod_tempor.-2" data-name="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor." class="cls-19" transform="translate(330.258 318.327)"><tspan x="0" y="17">Lorem ipsum dolor sit amet, </tspan></text>
+      <text id="Monday_10:40_am-3" data-name="Monday, 10:40 am" class="cls-21" transform="translate(335.234 301.951)"><tspan x="-17.08" y="0">Monday, 10:40 am</tspan></text>
+      <text id="Say_something_" data-name="Say something…" class="cls-22" transform="translate(270.504 489.287)"><tspan x="0" y="0">Say something…</tspan></text>
+      <circle id="Ellipse_262" data-name="Ellipse 262" class="cls-23" cx="18.617" cy="18.617" r="18.617" transform="translate(914.871 468.323)"/>
+      <path id="Path_214" data-name="Path 214" class="cls-16" d="M5.971,0,4.885,1.086,9,5.2H0V6.746H9l-4.11,4.11,1.086,1.086,5.971-5.971Z" transform="translate(927.417 480.925)"/>
+      <rect id="Rectangle_496" data-name="Rectangle 496" class="cls-9" width="644.694" height="52.422" rx="19" transform="translate(255.055 460.762)"/>
+      <path id="Union_60" data-name="Union 60" class="cls-17" d="M0,17.569v-2.2c0-2.416,3.953-4.393,8.784-4.393s8.784,1.976,8.784,4.393v2.2ZM4.392,4.393A4.392,4.392,0,1,1,8.784,8.785,4.393,4.393,0,0,1,4.392,4.393Z" transform="translate(890.747 378.671)"/>
+      <g class="cls-26" transform="matrix(1, 0, 0, 1, -10.5, -15.6)">
+        <rect id="Rectangle_500-2" data-name="Rectangle 500" class="cls-2" width="290.824" height="39.847" rx="6" transform="translate(584.41 391.93)"/>
+      </g>
+      <text id="Excepteur_sint_occaecat_cupidatat_non_proident.-2" data-name="Excepteur sint occaecat cupidatat non proident." class="cls-20" transform="translate(599.671 387.197)"><tspan x="0" y="17">Excepteur sint occaecat </tspan></text>
+      <text id="Monday_10:40_am-4" data-name="Monday, 10:40 am" class="cls-21" transform="translate(827.402 369.462)"><tspan x="-17.08" y="0">Monday, 10:40 am</tspan></text>
+      <g class="cls-25" transform="matrix(1, 0, 0, 1, -10.5, -15.6)">
+        <circle id="Ellipse_276-2" data-name="Ellipse 276" class="cls-16" cx="19.784" cy="19.784" r="19.784" transform="translate(887.06 381.09)"/>
+      </g>
+      <path id="Union_63" data-name="Union 63" class="cls-17" d="M0,15.828V13.849c0-2.177,3.561-3.957,7.914-3.957s7.914,1.781,7.914,3.957v1.978ZM3.956,3.957A3.957,3.957,0,1,1,7.914,7.914,3.957,3.957,0,0,1,3.956,3.957Z" transform="translate(888.433 377.365)"/>
+    </g>
+  </g>
+</svg>

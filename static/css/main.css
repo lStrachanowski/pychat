@@ -97,6 +97,17 @@ a:hover{
      bottom: 0;
  }
 
+ .back-image-slide-two{
+    background: url('/static/img/backimage2.svg') bottom center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
  .phone-position{
      width: 17%;
      z-index: 10;
@@ -225,20 +236,41 @@ a:hover{
     display: block;
 }
 
-.dot-menu-position{
-     display: none;
-     float: right;
-     position: relative;
-     top: -40%;
-     transform: translateY(-50%);
-     margin-left: 20px;
-
-}
-
 .red-dot{
     background: #C1292F;
 }
 
+.slide-one{
+    display: none;
+}
+
+.slide-two{
+    display: block;
+}
+
+.screen-img-size{
+    height: 35%;
+    width: 100%;
+}
+
+.left-slide-two-container{
+    width: 30%;
+    display: inline-block;
+}
+
+.right-slide-two-container{
+    width: 65%;
+    float: right;
+}
+
+.dot-menu-position-slide-two{
+    width: 3%;
+    float: right;
+    display: block;
+    cursor: pointer;
+    transform: translateY(125%);
+    margin: 50px;
+}
 /* mobile phone mode */
 @media only screen and (max-width: 599px){
     .phone-position{
