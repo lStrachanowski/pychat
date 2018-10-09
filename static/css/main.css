@@ -271,6 +271,26 @@ a:hover{
     transform: translateY(125%);
     margin: 50px;
 }
+
+.slide-two-text{
+    font-size: 5.5vw;
+    font-weight: 600;
+    position: relative;
+    line-height: 1.0;
+}
+
+.slide-two-text-small{
+    font-size: 1.7vw;
+    font-weight: 300;
+    position: relative;
+    line-height: 2.8;
+}
+
+.index-button-style-slide-two{
+    padding: 3.5% 5.5% 3.5% 5.5%;
+    font-size: 1.9vw;
+}
+
 /* mobile phone mode */
 @media only screen and (max-width: 599px){
     .phone-position{
