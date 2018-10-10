@@ -241,11 +241,11 @@ a:hover{
 }
 
 .slide-one{
-    display: none;
+    display: block;
 }
 
 .slide-two{
-    display: block;
+    display: none;
 }
 
 .screen-img-size{
