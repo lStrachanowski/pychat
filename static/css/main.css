@@ -234,10 +234,18 @@ a:hover{
     background: #3A7DB8;
     border-radius: 50%;
     display: block;
+    z-index: 15;
+    position: relative;
 }
-
+.dot-menu:hover{
+    cursor: pointer;
+}
 .red-dot{
     background: #C1292F;
+}
+
+.blue-dot{
+    background: #3A7DB8;
 }
 
 .slide-one{
@@ -272,6 +280,8 @@ a:hover{
     cursor: pointer;
     transform: translateY(125%);
     margin: 50px;
+    position: relative;
+    z-index: 15;
 }
 
 .slide-two-text{
@@ -465,6 +475,8 @@ a:hover{
     .dot-menu-position{
         display: block;
         cursor: pointer;
+        position: relative;
+        z-index: 15;
    }
     .phone-position{
         display: block;
