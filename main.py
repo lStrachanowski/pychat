@@ -1,13 +1,17 @@
 from flask import Flask
-from flask import render_template
+from flask import render_template, redirect, url_for
 
 app = Flask(__name__)
 
-user_status = False
+user_status = True
 
 @app.route('/')
 def index():
-    return render_template('not_logged.html', user_status = user_status)
+    if user_status == False:
+        return render_template('not_logged.html',user_status = user_status)
+    else:
+        return redirect(url_for("chat"))
+            
 
 @app.route('/login')
 def login():
@@ -19,7 +23,7 @@ def register():
 
 @app.route('/chat')
 def chat():
-    return 'chat'    
+    return render_template('chat.html', user_status = user_status)  
 
 @app.route('/settings')
 def settings():

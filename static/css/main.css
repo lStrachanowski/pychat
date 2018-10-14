@@ -15,6 +15,11 @@
     z-index: 16;
 }
 
+.index-header-user-logged{
+    position: relative;
+    float: right;
+}
+
 .menu-style-wrapper{
     display: block;
 }

@@ -41,7 +41,7 @@
                     <div class="index-header-logo-position">
                             <img src="{{url_for('static', filename='img/logo.svg')}}" alt="logo" />
                     </div>
-                       {% if user_status %}
+                      {% if not user_status %}
                         <div class="index-header-menu-position">
                             <div class="index-header-menu-align">
                                 <div class="menu-style-wrapper">
@@ -53,6 +53,9 @@
                                 </div>
                             </div>
                         </div>
+                     {% else %} 
+                        {% block header%}
+                        {% endblock %}
                      {% endif %}
             </header>
         </div>
