@@ -1,5 +1,7 @@
 document.addEventListener('DOMContentLoaded', ()=>{
-    document.querySelector('.index-header-menu-align').onclick = hide_menu_icon;
+    if(document.querySelector('.index-header-menu-align')){
+        document.querySelector('.index-header-menu-align').onclick = hide_menu_icon;
+    }
     if (window.screen.width >= 1200){
         document.getElementById("dot-one").onclick = swith_slide_one;
         document.getElementById("dot-two").onclick = swith_slide_two;

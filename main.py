@@ -3,10 +3,11 @@ from flask import render_template
 
 app = Flask(__name__)
 
+user_status = False
 
 @app.route('/')
 def index():
-    return render_template('not_logged.html')
+    return render_template('not_logged.html', user_status = user_status)
 
 @app.route('/login')
 def login():
