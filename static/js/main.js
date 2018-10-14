@@ -3,11 +3,8 @@ document.addEventListener('DOMContentLoaded', ()=>{
     if (window.screen.width >= 1200){
         document.getElementById("dot-one").onclick = swith_slide_one;
         document.getElementById("dot-two").onclick = swith_slide_two;
-        window.addEventListener('wheel', test);
+        window.addEventListener('wheel', slides);
     }
-    
-    console.log(window.screen.width + ' ' + window.screen.height);
-    
 });
 
 
@@ -28,7 +25,7 @@ var swith_slide_two = () =>{
     document.getElementById("dot-two").classList.add("red-dot");
 }
 
-var test = (e)=>{
+var slides = (e)=>{
     if(e.deltaY < 0 ){
         swith_slide_one() ;
     }else{
