@@ -276,7 +276,7 @@ a:hover{
 .dot-menu-position-slide-two{
     width: 3%;
     float: right;
-    display: block;
+    display: none;
     cursor: pointer;
     transform: translateY(125%);
     margin: 50px;
@@ -461,6 +461,7 @@ a:hover{
     .mobile-input-style{
         padding: 13px 13px;
     }
+    
 
 }
 
@@ -507,6 +508,9 @@ a:hover{
     }
     .index-center-content{
         top: 50%;
+    }
+    .dot-menu-position-slide-two{
+        display: block;
     }
 }
 

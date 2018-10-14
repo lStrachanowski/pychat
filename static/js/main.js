@@ -1,8 +1,12 @@
 document.addEventListener('DOMContentLoaded', ()=>{
     document.querySelector('.index-header-menu-align').onclick = hide_menu_icon;
-    document.getElementById("dot-one").onclick = swith_slide_one;
-    document.getElementById("dot-two").onclick = swith_slide_two;
-    window.addEventListener('wheel', test);
+    if (window.screen.width >= 1200){
+        document.getElementById("dot-one").onclick = swith_slide_one;
+        document.getElementById("dot-two").onclick = swith_slide_two;
+        window.addEventListener('wheel', test);
+    }
+    
+    console.log(window.screen.width + ' ' + window.screen.height);
     
 });
 
