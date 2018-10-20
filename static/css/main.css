@@ -422,6 +422,76 @@ input{
 
 /* mobile phone mode */
 @media only screen and (max-width: 599px){
+    .search-input-mobile-style{
+        width: 80%;
+        height: 60%;
+        border: 1px solid #8DCCFE;
+        border-radius: 10px;
+        color: rgb(255, 255, 255);
+        font-size: 1.5em;
+        background: #3A7DB8;
+    }
+    ::-webkit-input-placeholder {
+        color: white
+     }
+     
+     :-moz-placeholder { /* Firefox 18- */
+        color: white
+     }
+     
+     ::-moz-placeholder {  /* Firefox 19+ */
+        color: white
+     }
+     
+     :-ms-input-placeholder {  
+        color: white
+     }
+    .desktop-search-box{
+        display: none;
+    }
+    .mobile-search-box{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        background:  #3A7DB8;
+        height: 10vh;
+        justify-content: center;
+    }
+    .desktop-contact-panel{
+        display: none;
+    }
+    .index-header-menu-position-logged{
+        width: 50%;
+        margin: 1%;
+    }
+
+    .index-header-user-logged {
+        margin: 5% 0%;
+        height: 45px;
+    }
+
+    .gear-style {
+        width: 11%;
+        padding: 2% 5%;
+    }
+
+    .black {
+        display: none;
+    }
+    .plus-item{
+        display: none;
+    }
+    .plus-item-mobile{
+        width: 7%;
+        padding: 0% 0% 0% 3%;
+    }
+
+    .blue {
+        color: #3A7DB8;
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+
     .phone-position{
         display: none;
     }
@@ -450,7 +520,78 @@ input{
 }
 
 /* tablet portrait mode */
+
 @media only screen and (min-width: 600px), (max-width: 599px) and (orientation:landscape){
+    .search-input-mobile-style{
+        width: 80%;
+        height: 60%;
+        border: 1px solid #8DCCFE;
+        border-radius: 10px;
+        color: rgb(255, 255, 255);
+        font-size: 1.5em;
+        background: #3A7DB8;
+    }
+    ::-webkit-input-placeholder {
+        color: white
+     }
+     
+     :-moz-placeholder { /* Firefox 18- */
+        color: white
+     }
+     
+     ::-moz-placeholder {  /* Firefox 19+ */
+        color: white
+     }
+     
+     :-ms-input-placeholder {  
+        color: white
+     }
+    .desktop-search-box{
+        display: none;
+    }
+    .mobile-search-box{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        background:  #3A7DB8;
+        height: 10vw;
+        justify-content: center;
+    }
+    .desktop-contact-panel{
+        display: none;
+    }
+    .index-header-menu-position-logged{
+        width: 50%;
+        margin: 1%;
+    }
+
+    .index-header-user-logged{
+        margin: 5% 0%;
+        height: 45px;
+        justify-content: flex-end;
+    }
+
+    .gear-style {
+        width: 11%;
+        padding: 2% 5%;
+    }
+
+    .black {
+        display: none;
+    }
+    .plus-item{
+        display: none;
+    }
+    .plus-item-mobile{
+        width: 5%;
+        padding: 0% 0% 0% 3%;
+    }
+
+    .blue {
+        color: #3A7DB8;
+        font-size: 1.2em;
+        font-weight: 600;
+    }
     .phone-position{
         display: none;
     }
@@ -519,10 +660,6 @@ input{
         float: left;
         width: 100%;
     }
-    /* .tablet-view-phone-image{
-        display: inline-block;
-        height: 25vh;
-    } */
     .tablet-view-phone-image{
         display: inline;
         height: 35vh;
@@ -536,7 +673,11 @@ input{
 }
 
 /* tablet landscape mode  */
+
 @media only screen and (min-width: 900px){
+    .mobile-search-box {
+        height: 10vw;
+    }
     .menu-style{
         width: 45px;
         height: 8px;
@@ -578,7 +719,11 @@ input{
     .mobile-input-style{
         padding: 13px 13px;
     }
-    
+    .index-header-user-logged{
+        margin: 5% 0%;
+        height: 45px;
+        justify-content: flex-end;
+    }
 
 }
 
@@ -589,7 +734,51 @@ input{
 }
 
 /* desktop mode  */
+
 @media only screen and (min-width: 1200px){
+    .gear-style{
+        width: 5%;
+        padding: 2% 5%;
+    }
+    .index-header-menu-position-logged{
+        width: auto;
+        float: right;
+        margin: 2.0% 5%;
+    }
+    
+    .black{
+        display: flex;
+    }
+    .plus-item{
+        display: flex;
+    }
+    .search-input-mobile-style{
+        display: none;
+    }
+    ::-webkit-input-placeholder {
+        color: white;
+     }
+     
+     :-moz-placeholder { /* Firefox 18- */
+        color: white;
+     }
+     
+     ::-moz-placeholder {  /* Firefox 19+ */
+        color: white;
+     }
+     
+     :-ms-input-placeholder {  
+        color: white;
+     }
+    .desktop-search-box{
+        display: flex;
+    }
+    .mobile-search-box{
+        display: none;
+    }
+    .desktop-contact-panel{
+        display: flex;
+    }
     .dot-menu-position{
         display: block;
         cursor: pointer;
