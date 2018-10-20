@@ -1,8 +1,10 @@
 {% extends 'index.html' %}
 {% block header%}
-<div class="index-header-menu-position">
+<div class="index-header-menu-position-logged">
         <div class="index-header-user-logged">
-            User
+            <div class="user-position">
+                   <img src="/static/img/plus.svg" alt="plus" class="gear-style"> <span class="blue">User name</span><img src="/static/img/gear.svg" alt="gear" class="gear-style"> <span class="black">Log out</span> 
+            </div>
         </div>
     </div>
 {% endblock %}

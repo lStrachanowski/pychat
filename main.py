@@ -3,7 +3,7 @@ from flask import render_template, redirect, url_for
 
 app = Flask(__name__)
 
-user_status = False
+user_status = True
 
 @app.route('/')
 def index():

@@ -3,6 +3,12 @@
     float: right;
 }
 
+.index-header-menu-position-logged{
+    width: auto;
+    float: right;
+    margin: 2.0% 5%;
+}
+
 .index-header-menu-align{
     position: relative;
     float: right;
@@ -18,6 +24,13 @@
 .index-header-user-logged{
     position: relative;
     float: right;
+    margin: 5% 0%;
+    width: 100%;
+    height: 60px;
+    text-align: -webkit-right;
+    text-align: right;
+    display: flex;
+    align-items:center;
 }
 
 .menu-style-wrapper{
@@ -36,6 +49,26 @@
     display: none;
 }
 
+.gear-style{
+    width: 5%;
+    padding: 2% 5%;
+}
+.user-position{
+    /* margin-right: 2%; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.blue{
+    color:  #3A7DB8;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.black{
+    color:  rgb(34, 34, 34);
+    font-size: 1.5em;
+}
 a:link{
     text-decoration: none;
     transition: 0.25s;
