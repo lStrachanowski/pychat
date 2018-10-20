@@ -756,19 +756,19 @@ input{
         display: none;
     }
     ::-webkit-input-placeholder {
-        color: white;
+        color: rgb(32, 31, 31);
      }
      
      :-moz-placeholder { /* Firefox 18- */
-        color: white;
+        color: rgb(32, 31, 31);
      }
      
      ::-moz-placeholder {  /* Firefox 19+ */
-        color: white;
+        color: rgb(32, 31, 31);
      }
      
      :-ms-input-placeholder {  
-        color: white;
+        color: rgb(32, 31, 31);
      }
     .desktop-search-box{
         display: flex;
