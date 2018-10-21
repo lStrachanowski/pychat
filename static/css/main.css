@@ -355,6 +355,9 @@ a:hover{
     background: #F5F5F5;
     height: 10vh;
     justify-content: center;
+    border: 1px solid #BCE0FD;
+    border-bottom: 0px;
+    
 }
 .desktop-contact-panel{
     width: 75%;
@@ -363,6 +366,7 @@ a:hover{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-top: 1px solid #BCE0FD;
 }
 
 .x-size{
@@ -419,6 +423,100 @@ input{
     opacity: 0.55;
  }
 
+ .conversation-container{
+     display: flex;
+     align-items: center;
+     width: 100%;
+ }
+
+ .contact-list-panel{
+    width: 25%;
+    border: 1px solid #BCE0FD;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .conversation-display{
+    width: 75%;
+    border: 1px solid #BCE0FD;
+    height: auto;
+ }
+
+ .contact-list-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    transition: 0.15s;
+    border: 1px solid #BCE0FD;
+ }
+
+ .contact-list-item:hover{
+    -webkit-box-shadow: 7px 9px 7px -4px rgba(222,222,222,0.7);
+    -moz-box-shadow: 7px 9px 7px -4px rgba(222,222,222,0.7);
+    box-shadow: 7px 9px 7px -4px rgba(222,222,222,0.7);
+    cursor: pointer;
+    background-color:#F5F5F5;
+ }
+
+ .contact-list-item-active{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    transition: 0.15s;
+    border: 1px solid #BCE0FD;
+    background-color: #0B3961;
+ }
+
+ .contact-list-item-active > .contact-list-name{
+    color: white;
+ }
+
+ .contact-list-icon-style{
+     width: 15%;
+     margin: 5% 3%;
+ }
+
+ .green-dot{
+    background-color: #29BD5F;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    -webkit-box-shadow: 7px 9px 7px -4px rgba(222,222,222,0.7);
+    -moz-box-shadow: 7px 9px 7px -4px rgba(222,222,222,0.7);
+    box-shadow: 7px 9px 7px -4px rgba(222,222,222,0.7);
+ }
+
+ .red-dot{
+    background-color: #BD2929;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    -webkit-box-shadow: 7px 9px 7px -4px rgba(222,222,222,0.7);
+    -moz-box-shadow: 7px 9px 7px -4px rgba(222,222,222,0.7);
+    box-shadow: 7px 9px 7px -4px rgba(222,222,222,0.7);
+ }
+
+ .contact-list-item-active > .green-dot{
+    -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+ }
+
+ .contact-list-item-active > .red-dot{
+    -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+ }
+ 
+ 
+ .contact-list-name{
+     font-size: 1.5em;
+     color: #0B3961;
+ }
 
 /* mobile phone mode */
 @media only screen and (max-width: 599px){
