@@ -1,3 +1,4 @@
+
 .index-header-menu-position{
     width: 50%;
     float: right;
@@ -425,8 +426,8 @@ input{
 
  .conversation-container{
      display: flex;
-     align-items: center;
      width: 100%;
+     /* height: 69vh; */
  }
 
  .contact-list-panel{
@@ -434,12 +435,15 @@ input{
     border: 1px solid #BCE0FD;
     display: flex;
     flex-direction: column;
+    overflow:scroll;
+    overflow-x:hidden;
+    flex-wrap: nowrap;
+    overflow-y: auto;
+    max-height: 68vh;
  }
 
  .conversation-display{
     width: 75%;
-    border: 1px solid #BCE0FD;
-    height: auto;
  }
 
  .contact-list-item{
@@ -450,6 +454,7 @@ input{
     width: 100%;
     transition: 0.15s;
     border: 1px solid #BCE0FD;
+    min-height: 12vh;
  }
 
  .contact-list-item:hover{
@@ -469,10 +474,20 @@ input{
     transition: 0.15s;
     border: 1px solid #BCE0FD;
     background-color: #0B3961;
+    cursor: pointer;
+    min-height: 12vh;
  }
 
  .contact-list-item-active > .contact-list-name{
     color: white;
+ }
+
+ .contact-list-noitem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
  }
 
  .contact-list-icon-style{
@@ -516,6 +531,10 @@ input{
  .contact-list-name{
      font-size: 1.5em;
      color: #0B3961;
+ }
+ .contact-list-noname{
+    font-size: 1.5em;
+    color: #0B3961;
  }
 
 /* mobile phone mode */
