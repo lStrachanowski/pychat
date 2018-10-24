@@ -1,16 +1,21 @@
 document.addEventListener('DOMContentLoaded', ()=>{
+ 
     if(document.querySelector('.index-header-menu-align')){
         document.querySelector('.index-header-menu-align').onclick = hide_menu_icon;
     }
-    if (window.screen.width >= 1200){
-        if(document.querySelector("dot-one")){
-            document.getElementById("dot-one").onclick = swith_slide_one;
+
+    if(window.location.pathname == '/'){
+        if (window.screen.width >= 1200){
+            if(document.querySelector("dot-one")){
+                document.getElementById("dot-one").onclick = swith_slide_one;
+            }
+            if(document.getElementById("dot-two")){
+                document.getElementById("dot-two").onclick = swith_slide_two;
+            }
+            window.addEventListener('wheel', slides);
         }
-        if(document.getElementById("dot-two")){
-            document.getElementById("dot-two").onclick = swith_slide_two;
-        }
-        window.addEventListener('wheel', slides);
     }
+
 });
 
 
