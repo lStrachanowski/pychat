@@ -439,7 +439,7 @@ input{
     overflow-x:hidden;
     flex-wrap: nowrap;
     overflow-y: auto;
-    max-height: 68vh;
+    max-height: 69vh;
  }
 
  .conversation-display{
@@ -449,7 +449,7 @@ input{
  .contact-list-item{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     transition: 0.15s;
@@ -468,7 +468,7 @@ input{
  .contact-list-item-active{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     transition: 0.15s;
@@ -482,17 +482,20 @@ input{
     color: white;
  }
 
+ .contact-list-image-position{
+    justify-content: flex-start;
+ }
  .contact-list-noitem{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
  }
 
  .contact-list-icon-style{
-     width: 15%;
-     margin: 5% 3%;
+     width: 45%;
+     margin: 5% 23%;
  }
 
  .green-dot{
@@ -500,6 +503,7 @@ input{
     border-radius: 50%;
     width: 30px;
     height: 30px;
+    margin-right: 5%;
     -webkit-box-shadow: 7px 9px 7px -4px rgba(222,222,222,0.7);
     -moz-box-shadow: 7px 9px 7px -4px rgba(222,222,222,0.7);
     box-shadow: 7px 9px 7px -4px rgba(222,222,222,0.7);
@@ -510,6 +514,7 @@ input{
     border-radius: 50%;
     width: 30px;
     height: 30px;
+    margin-right: 5%;
     -webkit-box-shadow: 7px 9px 7px -4px rgba(222,222,222,0.7);
     -moz-box-shadow: 7px 9px 7px -4px rgba(222,222,222,0.7);
     box-shadow: 7px 9px 7px -4px rgba(222,222,222,0.7);
