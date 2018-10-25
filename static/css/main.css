@@ -456,7 +456,24 @@ input{
     border: 1px solid #BCE0FD;
     min-height: 12vh;
  }
-
+.message-counter{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background-color: #DD0001;
+    border-radius: 50%;
+    justify-content:center;
+    align-items: center;
+    position: absolute;
+    z-index: 10;
+    margin-left: 60%;
+    margin-top: 5%;
+}
+.message-counter-number{
+    color: white;
+    font-size: 1.15em;
+    /* font-weight: 600; */
+}
  .contact-list-item:hover{
     -webkit-box-shadow: 7px 9px 7px -4px rgba(222,222,222,0.7);
     -moz-box-shadow: 7px 9px 7px -4px rgba(222,222,222,0.7);
@@ -473,6 +490,7 @@ input{
     width: 100%;
     transition: 0.15s;
     border: 1px solid #BCE0FD;
+    border-top: none;
     background-color: #0B3961;
     cursor: pointer;
     min-height: 12vh;
@@ -484,6 +502,7 @@ input{
 
  .contact-list-image-position{
     justify-content: flex-start;
+    position: relative;
  }
  .contact-list-noitem{
     display: flex;
@@ -544,6 +563,9 @@ input{
 
 /* mobile phone mode */
 @media only screen and (max-width: 599px){
+    .contact-list-panel{
+        border-top: none;
+     }
     .search-input-mobile-style{
         width: 80%;
         height: 60%;
@@ -639,11 +661,22 @@ input{
         border-radius: 5px;
     }
 
+    .contact-list-panel {
+        width: 100%;
+    }
+
+    .conversation-display {
+        display: none;
+    }
+
 }
 
 /* tablet portrait mode */
 
 @media only screen and (min-width: 600px), (max-width: 599px) and (orientation:landscape){
+    .contact-list-panel{
+        border-top: none;
+     }
     .search-input-mobile-style{
         width: 80%;
         height: 60%;
@@ -763,9 +796,20 @@ input{
         padding: 13px 13px;
     }
 
+    .contact-list-panel {
+        width: 100%;
+    }
+
+    .conversation-display {
+        display: none;
+    }
+
 }
 
 @media only screen and (min-height: 900px) and (orientation:portrait){
+    .contact-list-panel{
+        border-top: none;
+     }
     .index-text-red-mobile{
         color:#C1292F;
     }   
@@ -792,11 +836,22 @@ input{
     .mobile-input-style{
         padding: 13px 13px;
     }
+
+    .contact-list-panel {
+        width: 100%;
+    }
+
+    .conversation-display {
+        display: none;
+    }
 }
 
 /* tablet landscape mode  */
 
 @media only screen and (min-width: 900px){
+    .contact-list-panel{
+        border-top: none;
+     }
     .mobile-search-box {
         height: 10vw;
     }
@@ -846,6 +901,14 @@ input{
         height: 45px;
         justify-content: flex-end;
     }
+    .contact-list-panel {
+        width: 100%;
+    }
+
+    .conversation-display {
+        display: none;
+    }
+    
 
 }
 
@@ -939,6 +1002,15 @@ input{
     }
     .dot-menu-position-slide-two{
         display: block;
+    }
+
+    .contact-list-panel {
+        width: 25%;
+        border-top: 1px;
+    }
+
+    .conversation-display {
+        display: flex;
     }
 }
 
