@@ -267,8 +267,8 @@ a:hover{
 }
 
 .dot-menu{
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     margin: 25px 0;
     background: #3A7DB8;
     border-radius: 50%;
@@ -501,8 +501,8 @@ input{
  .green-dot{
     background-color: #29BD5F;
     border-radius: 50%;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     margin-right: 5%;
     -webkit-box-shadow: 7px 9px 7px -4px rgba(222,222,222,0.7);
     -moz-box-shadow: 7px 9px 7px -4px rgba(222,222,222,0.7);
@@ -512,8 +512,8 @@ input{
  .red-dot{
     background-color: #BD2929;
     border-radius: 50%;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     margin-right: 5%;
     -webkit-box-shadow: 7px 9px 7px -4px rgba(222,222,222,0.7);
     -moz-box-shadow: 7px 9px 7px -4px rgba(222,222,222,0.7);
