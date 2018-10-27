@@ -444,6 +444,7 @@ input{
 
  .conversation-display{
     width: 75%;
+    display: block;
  }
 
  .contact-list-item{
@@ -559,6 +560,79 @@ input{
  .contact-list-noname{
     font-size: 1.5em;
     color: #0B3961;
+ }
+
+ .message-box{
+     width:70%;
+     min-height: 2%;
+     display: flex;
+     word-wrap: break-word;
+     flex-direction: row;
+     margin: 2%;
+ }
+
+ .message-right-box{
+    float: right;
+ }
+
+ .message-contact-icon-position{
+    width: 15%;
+    text-align: right;
+ }
+
+ .message-contact-icon-position-right{
+    text-align: left;
+    margin-left: 2%;
+ }
+
+ .message-contact-container-postion{
+     width: 75%;
+     flex-direction: column;
+     
+ }
+.message-contact-container{
+    background-color: #9AB1FF;
+    min-height: 60%;
+    -webkit-box-shadow: 7px 9px 7px -4px rgba(222,222,222,0.7);
+    -moz-box-shadow: 7px 9px 7px -4px rgba(222,222,222,0.7);
+    box-shadow: 7px 9px 7px -4px rgba(222,222,222,0.7);
+}
+
+ .message-time{
+    color:#3A7DB8;
+    font-size: 1.0em;
+    font-weight: 600;
+    margin-left: 1%;
+ }
+
+ .message-time-right{
+    text-align: right;
+    margin-right: 1%;
+ }
+
+
+ .message-text-style{
+     display: flex;
+     color: white;
+     font-size: 1.15em;
+     padding: 2%;
+     justify-content: center;
+     align-items: center;
+     border-radius: 10px;
+ }
+
+ .right-text{
+    color: #3A7DB8;
+ } 
+
+ .right-color{
+    background-color:#F5F5F5
+ } 
+
+ .message-contact-icon-style{
+     width: 50%;
+     margin-right: 10%;
+     margin-top: 5%;
  }
 
 /* mobile phone mode */
@@ -1010,7 +1084,7 @@ input{
     }
 
     .conversation-display {
-        display: flex;
+        display: block;
     }
 }
 
