@@ -472,7 +472,7 @@ input{
     align-items: center;
     position: absolute;
     z-index: 10;
-    margin-left: 60%;
+    margin-left: 50%;
     margin-top: 5%;
 }
 .message-counter-number{
@@ -519,7 +519,7 @@ input{
  }
 
  .contact-list-icon-style{
-     width: 45%;
+     width: 38%;
      margin: 5% 23%;
  }
 
