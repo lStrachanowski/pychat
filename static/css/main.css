@@ -2,12 +2,14 @@
 .index-header-menu-position{
     width: 50%;
     float: right;
+
 }
 
 .index-header-menu-position-logged{
     width: auto;
     float: right;
     margin: 2.0% 5%;
+    white-space: nowrap;
 }
 
 .index-header-menu-align{
@@ -51,7 +53,7 @@
 }
 
 .gear-style{
-    width: 5%;
+    height: 45px;
     padding: 2% 5%;
 }
 .user-position{
@@ -472,7 +474,8 @@ input{
     align-items: center;
     position: absolute;
     z-index: 10;
-    margin-left: 50%;
+    /* margin-left: 50%; */
+    margin-left: 85%;
     margin-top: 5%;
 }
 .message-counter-number{
@@ -519,7 +522,8 @@ input{
  }
 
  .contact-list-icon-style{
-     width: 38%;
+     /* width: 38%; */
+     width: 60px;
      margin: 5% 23%;
  }
 
@@ -756,6 +760,7 @@ input{
     .index-header-menu-position-logged{
         width: 50%;
         margin: 1%;
+        white-space: nowrap;
     }
 
     .index-header-user-logged {
@@ -867,6 +872,7 @@ input{
     .index-header-menu-position-logged{
         width: 50%;
         margin: 1%;
+        white-space: nowrap;
     }
 
     .index-header-user-logged{
@@ -1071,13 +1077,15 @@ input{
 
 @media only screen and (min-width: 1200px){
     .gear-style{
-        width: 5%;
+        height: 45px;
+        /* width:1.5vw; */
         padding: 2% 5%;
     }
     .index-header-menu-position-logged{
         width: auto;
         float: right;
         margin: 2.0% 5%;
+        white-space: nowrap;
     }
     
     .black{

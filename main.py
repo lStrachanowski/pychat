@@ -2,7 +2,7 @@ from flask import Flask
 from flask import render_template, redirect, url_for
 
 app = Flask(__name__)
-
+app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
 user_status = True
 user_options = False
 
