@@ -658,6 +658,8 @@ input{
      top: 50vh;
      background-color: white;
      z-index: 1;
+     border-top: 1px solid #BCE0FD;
+
  }
  .message-container-style{
      width: 80%;
@@ -686,6 +688,26 @@ input{
  .arrow-style{
      width: 30px;
      height: 30px;
+ }
+
+ .chat-options-button-style{
+    background: #3A7DB8;
+    color: white;
+    text-decoration: none;
+    border: none;
+    margin: 1% 2.5% 1% 2.5%;
+    padding: 10px;
+    transition: 0.3s;
+    border: 1px solid white;
+    border-radius: 15px;
+    white-space: nowrap;
+ }
+ .chat-options-button-style:hover{
+    background: #C1292F;
+    border: 1px solid #C1292F;
+    -webkit-box-shadow: 7px 9px 7px -4px rgba(0,0,0,0.16);
+    -moz-box-shadow: 7px 9px 7px -4px rgba(0,0,0,0.16);
+    box-shadow: 7px 9px 7px -4px rgba(0,0,0,0.16);
  }
 
 /* mobile phone mode */

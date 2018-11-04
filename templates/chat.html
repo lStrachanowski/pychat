@@ -14,6 +14,7 @@
         <input class="search-input-desktop-style" placeholder="Search in contacts">
     </div>
     <div class="desktop-contact-panel">
+        {% if user_options %}
         <div class="chat-panel-dot-style">
             <span class="circle"></span>
             <span class="circle"></span>
@@ -21,6 +22,17 @@
         </div>
         <span class="contact-style">Conversation with: Lukasz S</span>
         <span class="x-size"><img src="/static/img/x.svg"></span>
+        {% else %}
+        <div class="chat-panel-dot-style">
+                <span class="circle"></span>
+                <span class="circle"></span>
+                <span class="circle"></span>
+            </div>
+        <span class="contact-style">Conversation with: Lukasz S</span>
+        <button class="chat-options-button-style">Delete contact</button>
+        <button class="chat-options-button-style">Delete conversation</button>
+        <button class="chat-options-button-style">Edit contact</button>
+        {% endif%}
     </div>
     <div class="mobile-search-box">
             <input class="search-input-mobile-style" placeholder="Search in contacts">
