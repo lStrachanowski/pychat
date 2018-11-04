@@ -652,14 +652,14 @@ input{
  }
 
  .input-container-style{
-     width: 100%;
+     width: 75%;
      display: flex;
-     justify-content: space-evenly;
+     justify-content: space-around;
      align-items: center;
-     padding: 3% 1%;
+     padding: 1% 1%;
      position: -webkit-sticky; /* Safari */
-     position: sticky;
-     top: 50vh;
+     position: fixed;
+     bottom: 0;
      background-color: white;
      z-index: 1;
      border-top: 1px solid #BCE0FD;
