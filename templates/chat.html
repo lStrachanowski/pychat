@@ -9,7 +9,7 @@
     </div>
 {% endblock %}
 {% block mainbody %} 
-<div class="chat-main-panel-container">
+<div class="chat-main-panel-container triangle-column">
     <div class="desktop-search-box">
         <input class="search-input-desktop-style" placeholder="Search in contacts">
     </div>
@@ -38,13 +38,21 @@
             <input class="search-input-mobile-style" placeholder="Search in contacts">
             <img src="/static/img/plus-white.svg" alt="plus" class="gear-style  plus-item-mobile">
     </div>
+    <!-- <div class="triangle-container">
+        {% if mobile_user_options %}
+            <div class="triangle-up"></div>
+        {% else %}
+            <div class="triangle-down"></div>   
+        {% endif %}
+    </div> -->
+  
 </div>
 <div class="conversation-container">
         <div class="contact-list-panel">
             <!-- <div class="contact-list-noitem">
                     <div class="contact-list-noname">No contacts</div>
             </div>  -->
-            <div class="contact-list-item-active">
+            <div class="contact-list-item-active" id="1">
                     <div class="contact-list-image-position">
                         <div class="message-counter">
                                 <div class="message-counter-number">
@@ -56,14 +64,14 @@
                     <div class="contact-list-name">Lukasz S</div>
                     <div class="green-dot"></div>
              </div> 
-            <div class="contact-list-item">
+            <div class="contact-list-item" id="2">
                     <div class="contact-list-image-position">
                         <img src="/static/img/contact-icon.svg" alt="contact icon" class="contact-list-icon-style">
                     </div>
                     <div class="contact-list-name">Tomasz Kot</div>
                     <div class="green-dot"></div>
             </div>  
-            <div class="contact-list-item">
+            <div class="contact-list-item" id="3">
                     <div class="contact-list-image-position">
                         <img src="/static/img/contact-icon.svg" alt="contact icon" class="contact-list-icon-style">
                     </div>
@@ -175,7 +183,5 @@
         </div>
 
 </div>
-
-
 
 {% endblock %}

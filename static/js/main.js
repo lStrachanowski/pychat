@@ -16,6 +16,20 @@ document.addEventListener('DOMContentLoaded', ()=>{
         }
     }
 
+    // Selects all contact items elements and is adding on click function , whihch will get element ID
+    if(window.location.pathname == '/chat'){
+    document.querySelectorAll('.contact-list-item').forEach(item =>{
+        item.onclick = () =>{
+            var id = item.getAttribute('id');
+            // checking if user is in mobile or destop mode
+            if(window.screen.width < 1200){
+                window.location.href = '/chat/'+id
+            }else{
+                // console.log(id);
+            }
+        }
+    });
+    }
 });
 
 
