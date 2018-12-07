@@ -39,7 +39,9 @@
         <div>
             <header>
                     <div class="index-header-logo-position">
-                            <img src="{{url_for('static', filename='img/logo.svg')}}" alt="logo" />
+                        <a href="{{url_for('index')}}">
+                            <img src="{{url_for('static', filename='img/logo.svg')}}" alt="logo" / class="logo-hover">
+                        </a>    
                     </div>
                       {% if not user_status %}
                         <div class="index-header-menu-position">

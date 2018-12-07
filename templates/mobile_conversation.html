@@ -1,4 +1,29 @@
+{% extends 'index.html' %}
+{% block header%}
+<div class="index-header-menu-position-logged">
+        <div class="index-header-user-logged">
+            <div class="user-position">
+                   <img src="/static/img/plus.svg" alt="plus" class="gear-style plus-item"> <span class="blue">User name</span><img src="/static/img/gear.svg" alt="gear" class="gear-style"> <span class="black">Log out</span> 
+            </div>
+        </div>
+    </div>
+{% endblock %}
+{% block mainbody %} 
 <div>
+    <div class="option-bar-mobile">
+        <div class="option-bar-mobile-text">
+                Tomasz Kotowski
+        </div>
+    </div>
+    <div class="triangle-container">
+            {% if mobile_user_options %}
+                 <div class="triangle-up"></div>
+            {% else %}
+                 <div class="triangle-down"></div>   
+            {% endif %}
+    </div>
     mobile 
     {{chat_data}}
+
 </div>
+{% endblock %}

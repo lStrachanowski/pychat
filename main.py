@@ -6,7 +6,7 @@ app = Flask(__name__)
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
 user_status = True
 user_options = False
-mobile_user_options = True
+mobile_user_options = False
 
 @app.route('/')
 def index():
@@ -28,12 +28,12 @@ def chat():
     if user_status == False:
         return redirect(url_for("index"))
     else: 
-        return render_template('chat.html', user_status = user_status, user_options = user_options, mobile_user_options=mobile_user_options)  
+        return render_template('chat.html', user_status = user_status, user_options = user_options)  
 
 
 @app.route('/chat/<userid>')
 def user_chat(userid):
-    return render_template('mobile_conversation.html', chat_data = userid)
+    return render_template('mobile_conversation.html', chat_data = userid, user_status = user_status, mobile_user_options=mobile_user_options )
  
 
 @app.route('/settings')
