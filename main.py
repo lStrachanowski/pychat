@@ -6,7 +6,7 @@ app = Flask(__name__)
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
 user_status = True
 user_options = False
-mobile_user_options = False
+mobile_user_options = True
 
 @app.route('/')
 def index():

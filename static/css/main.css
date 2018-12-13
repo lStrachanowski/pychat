@@ -717,9 +717,10 @@ input{
  }
 
  .triangle-container{
-    display: none;
     background-color: #3A7DB8;
     width: 100%;
+    justify-content: center; 
+    flex-direction: row;
  }
 
  .triangle-column{
@@ -743,18 +744,40 @@ input{
     margin-bottom: 2%;
   }
 
+  .chat-options-button-style-mobile{
+    font-size: 13px;
+    background: #3A7DB8;
+    color: white;
+    text-decoration: none;
+    border: none;
+    margin: 1% 1% 1% 1%;
+    padding: 5px;
+    transition: 0.3s;
+    border: 1px solid white;
+    border-radius: 15px;
+    white-space: nowrap;
+ }
+ .chat-options-button-style-mobile:hover{
+    background: #C1292F;
+    border: 1px solid #C1292F;
+    -webkit-box-shadow: 7px 9px 7px -4px rgba(0,0,0,0.16);
+    -moz-box-shadow: 7px 9px 7px -4px rgba(0,0,0,0.16);
+    box-shadow: 7px 9px 7px -4px rgba(0,0,0,0.16);
+ }
+ .mobile-buttons-position{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.triangle-wrapper{
+    display: flex;
+    width: 100%;
+    justify-content:center; 
+    margin: 10px 0px 3px 0px;
+}
 
 /* mobile phone mode */
 @media only screen and (max-width: 599px){
-    .triangle-container{
-        display: flex;
-        background-color: #3A7DB8;
-        width: 100%;
-        justify-content: center; 
-     }
-    .triangle-column{
-        flex-direction: column;
-    }
     .contact-list-panel{
         border-top: none;
      }
@@ -890,15 +913,6 @@ input{
         font-size: 1.5em;
         color: white;
     }
-    .triangle-container{
-        display: flex;
-        background-color: #3A7DB8;
-        width: 100%;
-        justify-content: center; 
-     }
-    .triangle-column{
-        flex-direction: column;
-    }
     .contact-list-panel{
         border-top: none;
      }
@@ -1033,15 +1047,10 @@ input{
 }
 
 @media only screen and (min-height: 900px) and (orientation:portrait){
-    .triangle-container{
-        display: flex;
-        background-color: #3A7DB8;
-        width: 100%;
-        justify-content: center; 
+    .chat-options-button-style-mobile{
+        font-size: 18px;
+        padding: 10px;
      }
-    .triangle-column{
-        flex-direction: column;
-    }
     .contact-list-panel{
         border-top: none;
      }
@@ -1084,15 +1093,10 @@ input{
 /* tablet landscape mode  */
 
 @media only screen and (min-width: 900px){
-    .triangle-container{
-        display: flex;
-        background-color: #3A7DB8;
-        width: 100%;
-        justify-content: center; 
+    .chat-options-button-style-mobile{
+        font-size: 18px;
+        padding: 10px;
      }
-    .triangle-column{
-        flex-direction: column;
-    }
     .contact-list-panel{
         border-top: none;
      }
@@ -1169,9 +1173,6 @@ input{
     .triangle-container{
         display: none;
      }
-    .triangle-column{
-        flex-direction: row;
-    }
     .gear-style{
         height: 45px;
         /* width:1.5vw; */
